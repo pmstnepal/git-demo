@@ -19,21 +19,4 @@
       <url>scm:git:git@github.com/pmstnepal/git-demo.git</url>
       <developerConnection>scm:git:git@github.com/pmstnepal/git-demo.git</developerConnection>
   </scm>
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-myquery-plugin</artifactId>
-        <version>1.0</version>
-        <configuration>
-          <url>http://www.foobar.com/query</url>
-          <timeout>10</timeout>
-          <options>
-            <option>one</option>
-            <option>two</option>
-            <option>three</option>
-          </options>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>
